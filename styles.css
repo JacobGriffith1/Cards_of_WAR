@@ -1,0 +1,7 @@
+.nav-container {
+    background-image: url(/images/nav_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 310px;
+    background-position: center;
+}
