@@ -1,3 +1,18 @@
+@font-face {
+    font-family: norse;
+    src: url(/fonts/NORSE-KAWL.OTF);
+}
+
+@font-face {
+    font-family: norseBold;
+    src: url(/fonts/NORSEBOLD-2KGE.OTF);
+}
+
+.title-card {
+    font-size: 36px;
+    font-family: norseBold;
+}
+
 .nav-container {
     background-image: url(/images/nav_bg.jpg);
     background-repeat: no-repeat;
