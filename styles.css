@@ -11,10 +11,7 @@
 .title-card {
     font-size: 36px;
     font-family: norseBold;
-}
-
-.navbutt {
-    font-family: norse;
+    color: #FFFFFF
 }
 
 .nav-container {
@@ -23,4 +20,17 @@
     background-size: cover;
     height: 310px;
     background-position: center;
+}
+
+.navbutt {
+    font-size: 20px;
+    font-family: norse;
+    color: #FFFFFF;
+}
+
+.welcometext {
+    font-size: 36px;
+    font-family: norseBold;
+    text-align: center;
+    color: #FFFFFF;
 }
