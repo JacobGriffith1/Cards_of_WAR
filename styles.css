@@ -8,9 +8,11 @@
     src: url(/fonts/NORSEBOLD-2KGE.OTF);
 }
 
-.title-card {
+.title-card,
+.welcometext {
     font-size: 36px;
     font-family: norseBold;
+    text-align: center;
     color: #FFFFFF
 }
 
@@ -25,12 +27,5 @@
 .navbutt {
     font-size: 20px;
     font-family: norse;
-    color: #FFFFFF;
-}
-
-.welcometext {
-    font-size: 36px;
-    font-family: norseBold;
-    text-align: center;
     color: #FFFFFF;
 }
