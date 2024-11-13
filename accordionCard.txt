@@ -1,18 +1,18 @@
                                 
-                                <li class="card" id="set">
+                                <li class="card" id="">
                                     <a
                                       class="card-header btn btn-link text-left text-primary"
                                       data-toggle="collapse"
-                                      data-target="#cardtextset"
+                                      data-target="#cardtext"
                                       aria-expanded="false"
-                                      aria-controls="cardtextset"
+                                      aria-controls="cardtext"
                                       >setname <em>(year)</em>
                                     </a>
                                     <div
                                       class="collapse card-body"
-                                      id="cardtextset"
-                                      aria-labelledby="set"
-                                      data-parent="#set"
+                                      id="cardtext"
+                                      aria-labelledby=""
+                                      data-parent="#"
                                       >
                                         <p class="card-text">
                                             description
