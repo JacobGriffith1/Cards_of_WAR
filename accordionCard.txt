@@ -1,21 +1,21 @@
                                 
-<li class="card" id="set">
-    <a
-        class="card-header btn btn-link text-left text-primary"
-        data-toggle="collapse"
-        data-target="#cardtextset"
-        aria-expanded="false"
-        aria-controls="cardtextset"
-        >setname <em>(year)</em>
-    </a>
-    <div
-        class="collapse card-body"
-        id="cardtextset"
-        aria-labelledby="set"
-        data-parent="#set"
-        >
-        <p class="card-text">
-            description
-        </p>
-    </div>
-</li>
+                                <li class="card" id="set">
+                                    <a
+                                      class="card-header btn btn-link text-left text-primary"
+                                      data-toggle="collapse"
+                                      data-target="#cardtextset"
+                                      aria-expanded="false"
+                                      aria-controls="cardtextset"
+                                      >setname <em>(year)</em>
+                                    </a>
+                                    <div
+                                      class="collapse card-body"
+                                      id="cardtextset"
+                                      aria-labelledby="set"
+                                      data-parent="#set"
+                                      >
+                                        <p class="card-text">
+                                            description
+                                        </p>
+                                    </div>
+                                </li>
