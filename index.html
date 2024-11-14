@@ -130,13 +130,21 @@
                     </h4>
                 </div>
                 <div class="container-xl">
-                    <ul class="nav nav-tabs">
+                    <ul class="nav nav-tabs pill-white nav-fill">
                         
                         <li class="nav-item">
-                            <a class="nav-link active" href="#tab1" data-toggle="tab">By Set</a>
+                            <a class="nav-link showcaseName active"
+                               style="background-color: white; color: #dc3545;" 
+                               onclick="this.style.backgroundColor='white'; this.style.color='#dc3545'; document.getElementById('tabB').style.backgroundColor='#dc3545'; document.getElementById('tabB').style.color='white';"
+                               href="#tab1" data-toggle="tab" id="tabA"
+                            >By Set</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#tab2" data-toggle="tab">Filter</a>
+                            <a class="nav-link showcaseName"
+                               style="background-color: #dc3545; color: white;" 
+                               onclick="this.style.backgroundColor='white'; this.style.color='#dc3545'; document.getElementById('tabA').style.backgroundColor='#dc3545'; document.getElementById('tabA').style.color='white';"
+                               href="#tab2" data-toggle="tab" id="tabB"
+                            >Filter</a>
                         </li>
                     </ul>
                     <div class="tab-content bg-white p-3">
@@ -145,9 +153,9 @@
                             <ul class="accordion">
 
                                 <!--2004-->
-                                <li class="card" id="chk">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="chk">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextchk"
                                       aria-expanded="false"
@@ -155,7 +163,7 @@
                                       >Champions of Kamigawa <em>(2004)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextchk"
                                       aria-labelledby="chk"
                                       data-parent="#chk"
@@ -167,9 +175,9 @@
                                 </li>
 
                                 <!--2005-->
-                                <li class="card" id="bok">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="bok">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextbok"
                                       aria-expanded="false"
@@ -177,7 +185,7 @@
                                       >Betrayers of Kamigawa <em>(2005)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextbok"
                                       aria-labelledby="bok"
                                       data-parent="#bok"
@@ -188,9 +196,9 @@
                                     </div>
                                 </li>
 
-                                <li class="card" id="rav">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="rav">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextrav"
                                       aria-expanded="false"
@@ -198,7 +206,7 @@
                                       >Ravnica: City of Guilds <em>(2005)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextrav"
                                       aria-labelledby="rav"
                                       data-parent="#rav"
@@ -209,9 +217,9 @@
                                     </div>
                                 </li>
 
-                                <li class="card" id="sal-huk">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="sal-huk">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextsal-huk"
                                       aria-expanded="false"
@@ -219,7 +227,7 @@
                                       >Salvat 2005/Hachette UK <em>(2005/2006)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextsal-huk"
                                       aria-labelledby="sal-huk"
                                       data-parent="#sal-huk"
@@ -231,9 +239,9 @@
                                 </li>
 
                                 <!--2006-->
-                                <li class="card" id="gpt">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="gpt">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextgpt"
                                       aria-expanded="false"
@@ -241,7 +249,7 @@
                                       >Guildpact <em>(2006)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextgpt"
                                       aria-labelledby="gpt"
                                       data-parent="#gpt"
@@ -252,9 +260,9 @@
                                     </div>
                                 </li>
 
-                                <li class="card" id="dis">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="dis">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextdis"
                                       aria-expanded="false"
@@ -262,7 +270,7 @@
                                       >Dissension <em>(2006)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextdis"
                                       aria-labelledby="dis"
                                       data-parent="#dis"
@@ -273,9 +281,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="csp">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="csp">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextcsp"
                                       aria-expanded="false"
@@ -283,7 +291,7 @@
                                       >Coldsnap <em>(2006)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextcsp"
                                       aria-labelledby="csp"
                                       data-parent="#csp"
@@ -294,9 +302,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="tsp">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="tsp">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtexttsp"
                                       aria-expanded="false"
@@ -304,7 +312,7 @@
                                       >Time Spiral <em>(2006)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtexttsp"
                                       aria-labelledby="tsp"
                                       data-parent="#tsp"
@@ -316,9 +324,9 @@
                                 </li>
                                 
                                 <!--2007-->
-                                <li class="card" id="plc">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="plc">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextplc"
                                       aria-expanded="false"
@@ -326,7 +334,7 @@
                                       >Planar Chaos <em>(2007)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextplc"
                                       aria-labelledby="plc"
                                       data-parent="#plc"
@@ -337,9 +345,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="10e">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="10e">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtext10e"
                                       aria-expanded="false"
@@ -347,7 +355,7 @@
                                       >Tenth Edition <em>(2007)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtext10e"
                                       aria-labelledby="10e"
                                       data-parent="#10e"
@@ -358,9 +366,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="lrw">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="lrw">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextlrw"
                                       aria-expanded="false"
@@ -368,7 +376,7 @@
                                       >Lorwyn <em>(2007)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextlrw"
                                       aria-labelledby="lrw"
                                       data-parent="#lrw"
@@ -379,9 +387,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="dd1">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="dd1">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextdd1"
                                       aria-expanded="false"
@@ -389,7 +397,7 @@
                                       >Duel Decks: Elves vs. Goblins <em>(2007)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextdd1"
                                       aria-labelledby="dd1"
                                       data-parent="#dd1"
@@ -401,9 +409,9 @@
                                 </li>
                                 
                                 <!--2008-->
-                                <li class="card" id="mor">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="mor">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextmor"
                                       aria-expanded="false"
@@ -411,7 +419,7 @@
                                       >Morningtide <em>(2008)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextmor"
                                       aria-labelledby="mor"
                                       data-parent="#mor"
@@ -422,9 +430,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="eve">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="eve">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtexteve"
                                       aria-expanded="false"
@@ -432,7 +440,7 @@
                                       >Eventide <em>(2008)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtexteve"
                                       aria-labelledby="eve"
                                       data-parent="#eve"
@@ -443,9 +451,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="ala">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="ala">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextala"
                                       aria-expanded="false"
@@ -453,7 +461,7 @@
                                       >Shards of Alara <em>(2008)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextala"
                                       aria-labelledby="ala"
                                       data-parent="#ala"
@@ -464,9 +472,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="sus-jjt">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="sus-jjt">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextsus-jjt"
                                       aria-expanded="false"
@@ -474,7 +482,7 @@
                                       >Junior Super Series/Japan Junior Tournament <em>(2008)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextsus-jjt"
                                       aria-labelledby="sus-jjt"
                                       data-parent="#sus-jjt"
@@ -486,9 +494,9 @@
                                 </li>
                                 
                                 <!--2009-->
-                                <li class="card" id="con">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="con">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextcon"
                                       aria-expanded="false"
@@ -496,7 +504,7 @@
                                       >Conflux <em>(2009)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextcon"
                                       aria-labelledby="con"
                                       data-parent="#con"
@@ -507,9 +515,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="arb">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="arb">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextarb"
                                       aria-expanded="false"
@@ -517,7 +525,7 @@
                                       >Alara Reborn <em>(2009)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextarb"
                                       aria-labelledby="arb"
                                       data-parent="#arb"
@@ -528,9 +536,9 @@
                                     </div>
                                 </li>
                                                                 
-                                <li class="card" id="m10">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="m10">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextm10"
                                       aria-expanded="false"
@@ -538,7 +546,7 @@
                                       >Magic 2010 <em>(2009)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextm10"
                                       aria-labelledby="m10"
                                       data-parent="#m10"
@@ -549,9 +557,9 @@
                                     </div>
                                 </li>
 
-                                <li class="card" id="hop">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="hop">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtexthop"
                                       aria-expanded="false"
@@ -559,7 +567,7 @@
                                       >Planechase <em>(2009)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtexthop"
                                       aria-labelledby="hop"
                                       data-parent="#hop"
@@ -570,9 +578,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="zen">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="zen">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextzen"
                                       aria-expanded="false"
@@ -580,7 +588,7 @@
                                       >Zendikar <em>(2009)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextzen"
                                       aria-labelledby="zen"
                                       data-parent="#zen"
@@ -592,9 +600,9 @@
                                 </li>
                                 
                                 
-                                <li class="card" id="ddd">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="ddd">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextddd"
                                       aria-expanded="false"
@@ -602,7 +610,7 @@
                                       >Duel Decks: Garruk vs. Liliana <em>(2009)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextddd"
                                       aria-labelledby="ddd"
                                       data-parent="#ddd"
@@ -614,9 +622,9 @@
                                 </li>
                                 
                                 <!--2010-->
-                                <li class="card" id="wwk">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="wwk">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextwwk"
                                       aria-expanded="false"
@@ -624,7 +632,7 @@
                                       >Worldwake <em>(2010)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextwwk"
                                       aria-labelledby="wwk"
                                       data-parent="#wwk"
@@ -635,9 +643,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="dde">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="dde">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextdde"
                                       aria-expanded="false"
@@ -645,7 +653,7 @@
                                       >Duel Decks: Phyrexia vs. the Coalition <em>(2010)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextdde"
                                       aria-labelledby="dde"
                                       data-parent="#dde"
@@ -656,9 +664,9 @@
                                     </div>
                                 </li>
                                                                 
-                                <li class="card" id="roe">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="roe">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextroe"
                                       aria-expanded="false"
@@ -666,7 +674,7 @@
                                       >Rize of the Eldrazi <em>(2010)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextroe"
                                       aria-labelledby="roe"
                                       data-parent="#roe"
@@ -677,9 +685,9 @@
                                     </div>
                                 </li>
                                                                 
-                                <li class="card" id="arc-oarc">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="arc-oarc">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextarc-oarc"
                                       aria-expanded="false"
@@ -687,7 +695,7 @@
                                       >Archenemy/Archenemy Schemes <em>(2010)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextarc-oarc"
                                       aria-labelledby="arc-oarc"
                                       data-parent="#arc-oarc"
@@ -698,9 +706,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="m11-pm11">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="m11-pm11">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextm11-pm11"
                                       aria-expanded="false"
@@ -708,7 +716,7 @@
                                       >Magic 2011/Magic 2011 Promos <em>(2010)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextm11-pm11"
                                       aria-labelledby="m11-pm11"
                                       data-parent="#m11-pm11"
@@ -719,9 +727,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="ddf">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="ddf">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextddf"
                                       aria-expanded="false"
@@ -729,7 +737,7 @@
                                       >Duel Decks: Elspeth vs. Tezzeret <em>(2010)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextddf"
                                       aria-labelledby="ddf"
                                       data-parent="#ddf"
@@ -740,9 +748,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="som">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="som">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextsom"
                                       aria-expanded="false"
@@ -750,7 +758,7 @@
                                       >Scars of Mirrodin <em>(2010)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextsom"
                                       aria-labelledby="som"
                                       data-parent="#som"
@@ -761,9 +769,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="pd2">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="pd2">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextpd2"
                                       aria-expanded="false"
@@ -771,7 +779,7 @@
                                       >Premium Deck Series: Fire and Lightning <em>(2010)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextpd2"
                                       aria-labelledby="pd2"
                                       data-parent="#pd2"
@@ -782,9 +790,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="pmei">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="pmei">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextpmei"
                                       aria-expanded="false"
@@ -792,7 +800,7 @@
                                       >Dengeki-Maoh Magazine Promos <em>(2010/2011)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextpmei"
                                       aria-labelledby="pmei"
                                       data-parent="#pmei"
@@ -804,9 +812,9 @@
                                 </li>
                                 
                                 <!--2011-->
-                                <li class="card" id="ps11">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="ps11">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextps11"
                                       aria-expanded="false"
@@ -814,7 +822,7 @@
                                       >Salvat 2011 <em>(2011)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextps11"
                                       aria-labelledby="ps11"
                                       data-parent="#ps11"
@@ -825,9 +833,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="mbs">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="mbs">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextmbs"
                                       aria-expanded="false"
@@ -835,7 +843,7 @@
                                       >Mirrodin Besieged <em>(2011)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextmbs"
                                       aria-labelledby="mbs"
                                       data-parent="#mbs"
@@ -846,9 +854,9 @@
                                     </div>
                                 </li>
                                                                 
-                                <li class="card" id="ddg">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="ddg">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextddg"
                                       aria-expanded="false"
@@ -856,7 +864,7 @@
                                       >Duel Decks: Knights vs. Dragons <em>(2011)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextddg"
                                       aria-labelledby="ddg"
                                       data-parent="#ddg"
@@ -867,9 +875,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="nph">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="nph">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextnph"
                                       aria-expanded="false"
@@ -877,7 +885,7 @@
                                       >New Phyrexia <em>(2011)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextnph"
                                       aria-labelledby="nph"
                                       data-parent="#nph"
@@ -888,9 +896,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="cmd-ocmd">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="cmd-ocmd">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextcmd-ocmd"
                                       aria-expanded="false"
@@ -898,7 +906,7 @@
                                       >Magic: The Gathering-Commander/Commander 2011 Oversized <em>(2011)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextcmd-ocmd"
                                       aria-labelledby="cmd-ocmd"
                                       data-parent="#cmd-ocmd"
@@ -909,9 +917,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="m12">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="m12">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextm12"
                                       aria-expanded="false"
@@ -919,7 +927,7 @@
                                       >Magic 2012 <em>(2011)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextm12"
                                       aria-labelledby="m12"
                                       data-parent="#m12"
@@ -930,9 +938,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="v11">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="v11">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextv11"
                                       aria-expanded="false"
@@ -940,7 +948,7 @@
                                       >From the Vault: Legends <em>(2011)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextv11"
                                       aria-labelledby="v11"
                                       data-parent="#v11"
@@ -951,9 +959,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="ddh">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="ddh">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextddh"
                                       aria-expanded="false"
@@ -961,7 +969,7 @@
                                       >Duel Decks: Ajani vs. Nicol Bolas <em>(2011)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextddh"
                                       aria-labelledby="ddh"
                                       data-parent="#ddh"
@@ -972,9 +980,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="isd">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="isd">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextisd"
                                       aria-expanded="false"
@@ -982,7 +990,7 @@
                                       >Innistrad <em>(2011)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextisd"
                                       aria-labelledby="isd"
                                       data-parent="#isd"
@@ -993,9 +1001,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="pdci">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="pdci">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextpdci"
                                       aria-expanded="false"
@@ -1003,7 +1011,7 @@
                                       >DCI Promos <em>(2011)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextpdci"
                                       aria-labelledby="pdci"
                                       data-parent="#pdci"
@@ -1015,9 +1023,9 @@
                                 </li>
                                 
                                 <!--2012-->
-                                <li class="card" id="avr">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="avr">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextavr"
                                       aria-expanded="false"
@@ -1025,7 +1033,7 @@
                                       >Avacyn Restored <em>(2012)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextavr"
                                       aria-labelledby="avr"
                                       data-parent="#avr"
@@ -1036,9 +1044,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="pc2">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="pc2">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextpc2"
                                       aria-expanded="false"
@@ -1046,7 +1054,7 @@
                                       >Planechase 2012 Edition <em>(2012)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextpc2"
                                       aria-labelledby="pc2"
                                       data-parent="#pc2"
@@ -1057,9 +1065,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="m13">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="m13">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextm13"
                                       aria-expanded="false"
@@ -1067,7 +1075,7 @@
                                       >Magic 2013 <em>(2012)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextm13"
                                       aria-labelledby="m13"
                                       data-parent="#m13"
@@ -1078,9 +1086,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="rtr">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="rtr">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextrtr"
                                       aria-expanded="false"
@@ -1088,7 +1096,7 @@
                                       >Return to Ravnica <em>(2012)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextrtr"
                                       aria-labelledby="rtr"
                                       data-parent="#rtr"
@@ -1100,9 +1108,9 @@
                                 </li>
                                 
                                 <!--2013-->
-                                <li class="card" id="gtc">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="gtc">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextgtc"
                                       aria-expanded="false"
@@ -1110,7 +1118,7 @@
                                       >Gatecrash <em>(2013)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextgtc"
                                       aria-labelledby="gtc"
                                       data-parent="#gtc"
@@ -1121,9 +1129,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="ddk">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="ddk">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextddk"
                                       aria-expanded="false"
@@ -1131,7 +1139,7 @@
                                       >Duel Decks: Sorin vs. Tibalt <em>(2013)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextddk"
                                       aria-labelledby="ddk"
                                       data-parent="#ddk"
@@ -1142,9 +1150,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="dgm">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="dgm">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextdgm"
                                       aria-expanded="false"
@@ -1152,7 +1160,7 @@
                                       >Dragon's Maze <em>(2013)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextdgm"
                                       aria-labelledby="dgm"
                                       data-parent="#dgm"
@@ -1163,9 +1171,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="mma">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="mma">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextmma"
                                       aria-expanded="false"
@@ -1173,7 +1181,7 @@
                                       >Modern Masters/Modern Masters Tokens <em>(2013)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextmma"
                                       aria-labelledby="mma"
                                       data-parent="#mma"
@@ -1184,9 +1192,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="m14">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="m14">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextm14"
                                       aria-expanded="false"
@@ -1194,7 +1202,7 @@
                                       >Magic 2014 Core Set <em>(2013)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextm14"
                                       aria-labelledby="m14"
                                       data-parent="#m14"
@@ -1205,9 +1213,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="v13">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="v13">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextv13"
                                       aria-expanded="false"
@@ -1215,7 +1223,7 @@
                                       >From the Vault: Twenty <em>(2013)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextv13"
                                       aria-labelledby="v13"
                                       data-parent="#v13"
@@ -1226,9 +1234,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="ddl">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="ddl">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextddl"
                                       aria-expanded="false"
@@ -1236,7 +1244,7 @@
                                       >Duel Decks: Heroes vs. Monsters <em>(2013)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextddl"
                                       aria-labelledby="ddl"
                                       data-parent="#ddl"
@@ -1247,9 +1255,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="ths">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="ths">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextths"
                                       aria-expanded="false"
@@ -1257,7 +1265,7 @@
                                       >Theros <em>(2013)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextths"
                                       aria-labelledby="ths"
                                       data-parent="#ths"
@@ -1268,9 +1276,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="c13">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="c13">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextc13"
                                       aria-expanded="false"
@@ -1278,7 +1286,7 @@
                                       >Commander 2013 Edition <em>(2013)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextc13"
                                       aria-labelledby="c13"
                                       data-parent="#c13"
@@ -1290,9 +1298,9 @@
                                 </li>
                                 
                                 <!--2014-->
-                                <li class="card" id="tbth">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="tbth">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtexttbth"
                                       aria-expanded="false"
@@ -1300,7 +1308,7 @@
                                       >Battle the Horde <em>(2014)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtexttbth"
                                       aria-labelledby="tbth"
                                       data-parent="#tbth"
@@ -1311,9 +1319,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="ddm">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="ddm">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextddm"
                                       aria-expanded="false"
@@ -1321,7 +1329,7 @@
                                       >Duel Decks: Jace vs. Vraska <em>(2014)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextddm"
                                       aria-labelledby="ddm"
                                       data-parent="#ddm"
@@ -1332,9 +1340,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="jou">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="jou">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextjou"
                                       aria-expanded="false"
@@ -1342,7 +1350,7 @@
                                       >Journey into Nyx <em>(2014)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextjou"
                                       aria-labelledby="jou"
                                       data-parent="#jou"
@@ -1353,9 +1361,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="cns">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="cns">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextcns"
                                       aria-expanded="false"
@@ -1363,7 +1371,7 @@
                                       >Magic: The Gathering—Conspiracy <em>(2014)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextcns"
                                       aria-labelledby="cns"
                                       data-parent="#cns"
@@ -1374,9 +1382,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="m15">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="m15">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextm15"
                                       aria-expanded="false"
@@ -1384,7 +1392,7 @@
                                       >Magic 2015 Core Set <em>(2014)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextm15"
                                       aria-labelledby="m15"
                                       data-parent="#m15"
@@ -1395,9 +1403,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="ddn">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="ddn">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextddn"
                                       aria-expanded="false"
@@ -1405,7 +1413,7 @@
                                       >Duel Decks: Speed vs. Cunning <em>(2014)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextddn"
                                       aria-labelledby="ddn"
                                       data-parent="#ddn"
@@ -1416,9 +1424,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="ktk">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="ktk">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextktk"
                                       aria-expanded="false"
@@ -1426,7 +1434,7 @@
                                       >Khans of Tarkir/Khans of Tarkir Tokens <em>(2014)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextktk"
                                       aria-labelledby="ktk"
                                       data-parent="#ktk"
@@ -1437,9 +1445,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="c14">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="c14">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextc14"
                                       aria-expanded="false"
@@ -1447,7 +1455,7 @@
                                       >Commander 2014 <em>(2014)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextc14"
                                       aria-labelledby="c14"
                                       data-parent="#c14"
@@ -1458,9 +1466,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="gvl">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="gvl">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextgvl"
                                       aria-expanded="false"
@@ -1468,7 +1476,7 @@
                                       >Duel Decks Anthology: Garruk vs. Liliana/Duel Decks Anthology: Garruk vs. Liliana Tokens <em>(2014)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextgvl"
                                       aria-labelledby="gvl"
                                       data-parent="#gvl"
@@ -1479,9 +1487,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="evg">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="evg">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextevg"
                                       aria-expanded="false"
@@ -1489,7 +1497,7 @@
                                       >Duel Decks Anthology: Elves vs. Goblins <em>(2014)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextevg"
                                       aria-labelledby="evg"
                                       data-parent="#evg"
@@ -1501,9 +1509,9 @@
                                 </li>
                                 
                                 <!--2015-->
-                                <li class="card" id="frf">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="frf">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextfrf"
                                       aria-expanded="false"
@@ -1511,7 +1519,7 @@
                                       >Fate Reforged <em>(2015)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextfrf"
                                       aria-labelledby="frf"
                                       data-parent="#frf"
@@ -1522,9 +1530,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="ddo">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="ddo">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextddo"
                                       aria-expanded="false"
@@ -1532,7 +1540,7 @@
                                       >Duel Decks: Elspeth vs. Kiora <em>(2015)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextddo"
                                       aria-labelledby="ddo"
                                       data-parent="#ddo"
@@ -1543,9 +1551,9 @@
                                     </div>
                                 </li>
                                                                 
-                                <li class="card" id="dtk">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="dtk">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextdtk"
                                       aria-expanded="false"
@@ -1553,7 +1561,7 @@
                                       >Dragons of Tarkir <em>(2015)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextdtk"
                                       aria-labelledby="dtk"
                                       data-parent="#dtk"
@@ -1564,9 +1572,9 @@
                                     </div>
                                 </li>
 
-                                <li class="card" id="mm2">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="mm2">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextmm2"
                                       aria-expanded="false"
@@ -1574,7 +1582,7 @@
                                       >Modern Masters 2015 Edition <em>(2015)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextmm2"
                                       aria-labelledby="mm2"
                                       data-parent="#mm2"
@@ -1585,9 +1593,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="ps15">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="ps15">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextps15"
                                       aria-expanded="false"
@@ -1595,7 +1603,7 @@
                                       >San Diego Comic-Con 2015 <em>(2015)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextps15"
                                       aria-labelledby="ps15"
                                       data-parent="#ps15"
@@ -1606,9 +1614,9 @@
                                     </div>
                                 </li>
                                                                 
-                                <li class="card" id="v15">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="v15">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextv15"
                                       aria-expanded="false"
@@ -1616,7 +1624,7 @@
                                       >From the Vault: Angels <em>(2015)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextv15"
                                       aria-labelledby="v15"
                                       data-parent="#v15"
@@ -1627,9 +1635,9 @@
                                     </div>
                                 </li>
 
-                                <li class="card" id="ddp">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="ddp">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextddp"
                                       aria-expanded="false"
@@ -1637,7 +1645,7 @@
                                       >Duel Decks: Zendikar vs. Eldrazi <em>(2015)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextddp"
                                       aria-labelledby="ddp"
                                       data-parent="#ddp"
@@ -1648,9 +1656,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="c15">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="c15">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextc15"
                                       aria-expanded="false"
@@ -1658,7 +1666,7 @@
                                       >Commander 2015 <em>(2015)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextc15"
                                       aria-labelledby="c15"
                                       data-parent="#c15"
@@ -1670,9 +1678,9 @@
                                 </li>
 
                                 <!--2016-->                                
-                                <li class="card" id="ogw">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="ogw">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextogw"
                                       aria-expanded="false"
@@ -1680,7 +1688,7 @@
                                       >Oath of the Gatewatch <em>(2016)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextogw"
                                       aria-labelledby="ogw"
                                       data-parent="#ogw"
@@ -1691,9 +1699,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="ddq">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="ddq">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextddq"
                                       aria-expanded="false"
@@ -1701,7 +1709,7 @@
                                       >Duel Decks: Blessed vs. Cursed <em>(2016)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextddq"
                                       aria-labelledby="ddq"
                                       data-parent="#ddq"
@@ -1712,9 +1720,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="w16">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="w16">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextw16"
                                       aria-expanded="false"
@@ -1722,7 +1730,7 @@
                                       >Welcome Deck 2016 <em>(2016)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextw16"
                                       aria-labelledby="w16"
                                       data-parent="#w16"
@@ -1733,9 +1741,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="soi">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="soi">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextsoi"
                                       aria-expanded="false"
@@ -1743,7 +1751,7 @@
                                       >Shadows over Innistrad <em>(2015)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextsoi"
                                       aria-labelledby="soi"
                                       data-parent="#soi"
@@ -1754,9 +1762,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="ema">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="ema">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextema"
                                       aria-expanded="false"
@@ -1764,7 +1772,7 @@
                                       >Eternal Masters <em>(2016)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextema"
                                       aria-labelledby="ema"
                                       data-parent="#ema"
@@ -1775,9 +1783,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="emn">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="emn">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextemn"
                                       aria-expanded="false"
@@ -1785,7 +1793,7 @@
                                       >Eldritch Moon <em>(2016)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextemn"
                                       aria-labelledby="emn"
                                       data-parent="#emn"
@@ -1796,9 +1804,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="ddr">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="ddr">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextddr"
                                       aria-expanded="false"
@@ -1806,7 +1814,7 @@
                                       >Duel Decks: Nissa vs. Ob Nixilis <em>(2016)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextddr"
                                       aria-labelledby="ddr"
                                       data-parent="#ddr"
@@ -1817,9 +1825,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="c16">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="c16">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextc16"
                                       aria-expanded="false"
@@ -1827,7 +1835,7 @@
                                       >Commander 2016 <em>(2016)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextc16"
                                       aria-labelledby="c16"
                                       data-parent="#c16"
@@ -1838,9 +1846,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="pca">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="pca">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextpca"
                                       aria-expanded="false"
@@ -1848,7 +1856,7 @@
                                       >Planechase Anthology <em>(2016)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextpca"
                                       aria-labelledby="pca"
                                       data-parent="#pca"
@@ -1860,9 +1868,9 @@
                                 </li>
 
                                 <!--2017-->                                
-                                <li class="card" id="mm3">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="mm3">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextmm3"
                                       aria-expanded="false"
@@ -1870,7 +1878,7 @@
                                       >Modern Masters 2017 Edition <em>(2017)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextmm3"
                                       aria-labelledby="mm3"
                                       data-parent="#mm3"
@@ -1881,9 +1889,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="dds">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="dds">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextdds"
                                       aria-expanded="false"
@@ -1891,7 +1899,7 @@
                                       >Duel Decks: Mind vs. Might <em>(2017)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextdds"
                                       aria-labelledby="dds"
                                       data-parent="#dds"
@@ -1902,9 +1910,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="w17">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="w17">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextw17"
                                       aria-expanded="false"
@@ -1912,7 +1920,7 @@
                                       >Welcome Deck 2017 <em>(2017)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextw17"
                                       aria-labelledby="w17"
                                       data-parent="#w17"
@@ -1923,9 +1931,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="cma">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="cma">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextcma"
                                       aria-expanded="false"
@@ -1933,7 +1941,7 @@
                                       >Commander Anthology <em>(2017)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextcma"
                                       aria-labelledby="cma"
                                       data-parent="#cma"
@@ -1944,9 +1952,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="e01">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="e01">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtexte01"
                                       aria-expanded="false"
@@ -1954,7 +1962,7 @@
                                       >Archenemy: Nicol Bolas <em>(2017)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtexte01"
                                       aria-labelledby="e01"
                                       data-parent="#e01"
@@ -1965,9 +1973,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="c17">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="c17">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextc17"
                                       aria-expanded="false"
@@ -1975,7 +1983,7 @@
                                       >Commander 2017/Commander 2017 Tokens <em>(2017)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextc17"
                                       aria-labelledby="c17"
                                       data-parent="#c17"
@@ -1986,9 +1994,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="xln">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="xln">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextxln"
                                       aria-expanded="false"
@@ -1996,7 +2004,7 @@
                                       >Ixalan/Ixalan Promos <em>(2017)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextxln"
                                       aria-labelledby="xln"
                                       data-parent="#xln"
@@ -2007,9 +2015,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="ddt">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="ddt">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextddt"
                                       aria-expanded="false"
@@ -2017,7 +2025,7 @@
                                       >Duel Decks: Merfolk vs. Goblins <em>(2017)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextddt"
                                       aria-labelledby="ddt"
                                       data-parent="#ddt"
@@ -2028,9 +2036,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="e02">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="e02">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtexte02"
                                       aria-expanded="false"
@@ -2038,7 +2046,7 @@
                                       >Explorers of Ixalan <em>(2017)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtexte02"
                                       aria-labelledby="e02"
                                       data-parent="#e02"
@@ -2049,9 +2057,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="ust">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="ust">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextust"
                                       aria-expanded="false"
@@ -2059,7 +2067,7 @@
                                       >Unstable <em>(2017)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextust"
                                       aria-labelledby="ust"
                                       data-parent="#ust"
@@ -2071,9 +2079,9 @@
                                 </li>
 
                                 <!--2018-->                                
-                                <li class="card" id="rix">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="rix">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextrix"
                                       aria-expanded="false"
@@ -2081,7 +2089,7 @@
                                       >Rivals of Ixalan <em>(2018)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextrix"
                                       aria-labelledby="rix"
                                       data-parent="#rix"
@@ -2092,9 +2100,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="a25">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="a25">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtexta25"
                                       aria-expanded="false"
@@ -2102,7 +2110,7 @@
                                       >Masters 25 <em>(2018)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtexta25"
                                       aria-labelledby="a25"
                                       data-parent="#a25"
@@ -2113,9 +2121,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="dom">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="dom">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextdom"
                                       aria-expanded="false"
@@ -2123,7 +2131,7 @@
                                       >Dominaria <em>(2018)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextdom"
                                       aria-labelledby="dom"
                                       data-parent="#dom"
@@ -2134,9 +2142,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="bbd">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="bbd">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextbbd"
                                       aria-expanded="false"
@@ -2144,7 +2152,7 @@
                                       >Battlebond <em>(2018)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextbbd"
                                       aria-labelledby="bbd"
                                       data-parent="#bbd"
@@ -2155,9 +2163,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="m19">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="m19">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextm19"
                                       aria-expanded="false"
@@ -2165,7 +2173,7 @@
                                       >Core Set 2019/Core Set 2019 Tokens <em>(2018)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextm19"
                                       aria-labelledby="m19"
                                       data-parent="#m19"
@@ -2176,9 +2184,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="c18">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="c18">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextc18"
                                       aria-expanded="false"
@@ -2186,7 +2194,7 @@
                                       >Commander 2018 <em>(2018)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextc18"
                                       aria-labelledby="c18"
                                       data-parent="#c18"
@@ -2197,9 +2205,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="grn">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="grn">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextgrn"
                                       aria-expanded="false"
@@ -2207,7 +2215,7 @@
                                       >Guilds of Ravnica <em>(2018)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextgrn"
                                       aria-labelledby="grn"
                                       data-parent="#grn"
@@ -2218,9 +2226,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="gk1">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="gk1">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextgk1"
                                       aria-expanded="false"
@@ -2228,7 +2236,7 @@
                                       >Guild Kit: Boros <em>(2018)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextgk1"
                                       aria-labelledby="gk1"
                                       data-parent="#gk1"
@@ -2239,9 +2247,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="uma">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="uma">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextuma"
                                       aria-expanded="false"
@@ -2249,7 +2257,7 @@
                                       >Ultimate Masters <em>(2018)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextuma"
                                       aria-labelledby="uma"
                                       data-parent="#uma"
@@ -2261,9 +2269,9 @@
                                 </li>
                                 
                                 <!--2019-->                                
-                                <li class="card" id="rna">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="rna">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextrna"
                                       aria-expanded="false"
@@ -2271,7 +2279,7 @@
                                       >Ravnica Allegiance <em>(2019)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextrna"
                                       aria-labelledby="rna"
                                       data-parent="#rna"
@@ -2282,9 +2290,9 @@
                                     </div>
                                 </li>
 
-                                <li class="card" id="gk2">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="gk2">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextgk2"
                                       aria-expanded="false"
@@ -2292,7 +2300,7 @@
                                       >Guild Kit: Orzhov/Guild Kit: Rakdos <em>(2019)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextgk2"
                                       aria-labelledby="gk2"
                                       data-parent="#gk2"
@@ -2303,9 +2311,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="war">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="war">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextwar"
                                       aria-expanded="false"
@@ -2313,7 +2321,7 @@
                                       >War of the Spark/War of the Spark Promos <em>(2019)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextwar"
                                       aria-labelledby="war"
                                       data-parent="#war"
@@ -2324,9 +2332,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="mh1">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="mh1">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextmh1"
                                       aria-expanded="false"
@@ -2334,7 +2342,7 @@
                                       >Modern Horizons <em>(2019)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextmh1"
                                       aria-labelledby="mh1"
                                       data-parent="#mh1"
@@ -2345,9 +2353,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="m20">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="m20">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextm20"
                                       aria-expanded="false"
@@ -2355,7 +2363,7 @@
                                       >Core Set 2020/Core Set 2020 Promos <em>(2019)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextm20"
                                       aria-labelledby="m20"
                                       data-parent="#m20"
@@ -2366,9 +2374,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="c19">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="c19">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextc19"
                                       aria-expanded="false"
@@ -2376,7 +2384,7 @@
                                       >Commander 2019 <em>(2019)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextc19"
                                       aria-labelledby="c19"
                                       data-parent="#c19"
@@ -2387,9 +2395,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="gn2">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="gn2">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextgn2"
                                       aria-expanded="false"
@@ -2397,7 +2405,7 @@
                                       >Game Night 2019 <em>(2019)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextgn2"
                                       aria-labelledby="gn2"
                                       data-parent="#gn2"
@@ -2408,9 +2416,9 @@
                                     </div>
                                 </li>
 
-                                <li class="card" id="mb1">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="mb1">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextmb1"
                                       aria-expanded="false"
@@ -2418,7 +2426,7 @@
                                       >Mystery Booster/Mystery Booster Retail Edition Foils <em>(2019/2020)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextmb1"
                                       aria-labelledby="mb1"
                                       data-parent="#mb1"
@@ -2430,9 +2438,9 @@
                                 </li>
                                 
                                 <!--2020-->                                
-                                <li class="card" id="jmp">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="jmp">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextjmp"
                                       aria-expanded="false"
@@ -2440,7 +2448,7 @@
                                       >Jumpstart/Jumpstart Front Cards <em>(2020)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextjmp"
                                       aria-labelledby="jmp"
                                       data-parent="#jmp"
@@ -2451,9 +2459,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="m21">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="m21">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextm21"
                                       aria-expanded="false"
@@ -2461,7 +2469,7 @@
                                       >Core Set 2021 <em>(2020)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextm21"
                                       aria-labelledby="m21"
                                       data-parent="#m21"
@@ -2472,9 +2480,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="2xm">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="2xm">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtext2xm"
                                       aria-expanded="false"
@@ -2482,7 +2490,7 @@
                                       >Double Masters <em>(2020)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtext2xm"
                                       aria-labelledby="2xm"
                                       data-parent="#2xm"
@@ -2493,9 +2501,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="znr">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="znr">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextznr"
                                       aria-expanded="false"
@@ -2503,7 +2511,7 @@
                                       >Zendikar Rising/Zendikar Rising Promos/Zendikar Rising Commander <em>(2020)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextznr"
                                       aria-labelledby="znr"
                                       data-parent="#znr"
@@ -2514,9 +2522,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="cmr">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="cmr">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextcmr"
                                       aria-expanded="false"
@@ -2524,7 +2532,7 @@
                                       >Commander Legends <em>(2020)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextcmr"
                                       aria-labelledby="cmr"
                                       data-parent="#cmr"
@@ -2536,9 +2544,9 @@
                                 </li>
 
                                 <!--2021-->                                
-                                <li class="card" id="khm">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="khm">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextkhm"
                                       aria-expanded="false"
@@ -2546,7 +2554,7 @@
                                       >Kaldheim/Kaldheim Commander <em>(2021)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextkhm"
                                       aria-labelledby="khm"
                                       data-parent="#khm"
@@ -2557,9 +2565,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="tsr">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="tsr">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtexttsr"
                                       aria-expanded="false"
@@ -2567,7 +2575,7 @@
                                       >Time Spiral Remastered <em>(2021)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtexttsr"
                                       aria-labelledby="tsr"
                                       data-parent="#tsr"
@@ -2578,9 +2586,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="stx">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="stx">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextstx"
                                       aria-expanded="false"
@@ -2588,7 +2596,7 @@
                                       >Strixhaven: School of Mages/Strixhaven: School of Mages Promos <em>(2021)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextstx"
                                       aria-labelledby="stx"
                                       data-parent="#stx"
@@ -2599,9 +2607,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="c21">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="c21">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextc21"
                                       aria-expanded="false"
@@ -2609,7 +2617,7 @@
                                       >Commander 2021 <em>(2021)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextc21"
                                       aria-labelledby="c21"
                                       data-parent="#c21"
@@ -2620,9 +2628,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="afr">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="afr">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextafr"
                                       aria-expanded="false"
@@ -2630,7 +2638,7 @@
                                       >Adventures in the Forgotten Realms/Adventures in the Forgotten Realms Commander <em>(2021)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextafr"
                                       aria-labelledby="afr"
                                       data-parent="#afr"
@@ -2641,9 +2649,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="mic">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="mic">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextmic"
                                       aria-expanded="false"
@@ -2651,7 +2659,7 @@
                                       >Innistrad: Midnight Hunt Commander <em>(2021)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextmic"
                                       aria-labelledby="mic"
                                       data-parent="#mic"
@@ -2662,9 +2670,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="vow">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="vow">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextvow"
                                       aria-expanded="false"
@@ -2672,7 +2680,7 @@
                                       >Innistrad: Crimson Vow/Innistrad: Crimson Vow Commander/Innistrad: Double Feature <em>(2021/2022)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextvow"
                                       aria-labelledby="vow"
                                       data-parent="#vow"
@@ -2684,9 +2692,9 @@
                                 </li>
 
                                 <!--2022-->                                
-                                <li class="card" id="neo">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="neo">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextneo"
                                       aria-expanded="false"
@@ -2694,7 +2702,7 @@
                                       >Kamigawa: Neon Dynasty <em>(2022)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextneo"
                                       aria-labelledby="neo"
                                       data-parent="#neo"
@@ -2705,9 +2713,9 @@
                                     </div>
                                 </li>                                
                                 
-                                <li class="card" id="sld22">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="sld22">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextsld22"
                                       aria-expanded="false"
@@ -2715,7 +2723,7 @@
                                       >Artist Series: Wayne Reynolds <em>(2022)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextsld22"
                                       aria-labelledby="sld22"
                                       data-parent="#sld22"
@@ -2726,9 +2734,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="ncc">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="ncc">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextncc"
                                       aria-expanded="false"
@@ -2736,7 +2744,7 @@
                                       >New Capenna Commander <em>(2022)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextncc"
                                       aria-labelledby="ncc"
                                       data-parent="#ncc"
@@ -2747,9 +2755,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="clb">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="clb">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextclb"
                                       aria-expanded="false"
@@ -2757,7 +2765,7 @@
                                       >Commander Legends: Battle for Baldur's Gate/Commander Legends: Battle for Baldur's Gate Tokens <em>(2022)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextclb"
                                       aria-labelledby="clb"
                                       data-parent="#clb"
@@ -2768,9 +2776,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="2x2">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="2x2">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtext2x2"
                                       aria-expanded="false"
@@ -2778,7 +2786,7 @@
                                       >Double Masters 2022 <em>(2022)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtext2x2"
                                       aria-labelledby="2x2"
                                       data-parent="#2x2"
@@ -2789,9 +2797,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="dmu">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="dmu">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextdmu"
                                       aria-expanded="false"
@@ -2799,7 +2807,7 @@
                                       >Dominaria United/Dominaria United Commander <em>(2022)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextdmu"
                                       aria-labelledby="dmu"
                                       data-parent="#dmu"
@@ -2810,9 +2818,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="gn3">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="gn3">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextgn3"
                                       aria-expanded="false"
@@ -2820,7 +2828,7 @@
                                       >Game Night 2022 <em>(2022)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextgn3"
                                       aria-labelledby="gn3"
                                       data-parent="#gn3"
@@ -2831,9 +2839,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="bro">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="bro">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextbro"
                                       aria-expanded="false"
@@ -2841,7 +2849,7 @@
                                       >The Brothers' War/The Brothers' War Promos/The Brothers' War Commander <em>(2022)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextbro"
                                       aria-labelledby="bro"
                                       data-parent="#bro"
@@ -2852,9 +2860,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="scd">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="scd">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextscd"
                                       aria-expanded="false"
@@ -2862,7 +2870,7 @@
                                       >Starter Commander Decks <em>(2022)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextscd"
                                       aria-labelledby="scd"
                                       data-parent="#scd"
@@ -2873,9 +2881,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="j22">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="j22">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextj22"
                                       aria-expanded="false"
@@ -2883,7 +2891,7 @@
                                       >Jumpstart 2022 <em>(2022)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextj22"
                                       aria-labelledby="j22"
                                       data-parent="#j22"
@@ -2895,9 +2903,9 @@
                                 </li>
                                 
                                 <!--2023-->                                
-                                <li class="card" id="dmr">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="dmr">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextdmr"
                                       aria-expanded="false"
@@ -2905,7 +2913,7 @@
                                       >Dominaria Remastered <em>(2023)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextdmr"
                                       aria-labelledby="dmr"
                                       data-parent="#dmr"
@@ -2916,9 +2924,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="mom">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="mom">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextmom"
                                       aria-expanded="false"
@@ -2926,7 +2934,7 @@
                                       >March of the Machine/March of the Machine Promos/March of the Machine Commander <em>(2023)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextmom"
                                       aria-labelledby="mom"
                                       data-parent="#mom"
@@ -2937,9 +2945,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="mat">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="mat">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextmat"
                                       aria-expanded="false"
@@ -2947,7 +2955,7 @@
                                       >March of the Machine: The Aftermath <em>(2023)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextmat"
                                       aria-labelledby="mat"
                                       data-parent="#mat"
@@ -2958,9 +2966,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="pctb">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="pctb">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextpctb"
                                       aria-expanded="false"
@@ -2968,7 +2976,7 @@
                                       >From Cute to Brute <em>(2023)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextpctb"
                                       aria-labelledby="pctb"
                                       data-parent="#pctb"
@@ -2979,9 +2987,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="cmm">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="cmm">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextcmm"
                                       aria-expanded="false"
@@ -2989,7 +2997,7 @@
                                       >Commander Masters <em>(2023)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextcmm"
                                       aria-labelledby="cmm"
                                       data-parent="#cmm"
@@ -3000,9 +3008,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="woe">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="woe">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextwoe"
                                       aria-expanded="false"
@@ -3010,7 +3018,7 @@
                                       >Wilds of Eldraine/Wilds of Eldraine Commander <em>(2023)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextwoe"
                                       aria-labelledby="woe"
                                       data-parent="#woe"
@@ -3021,9 +3029,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="lci">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="lci">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextlci"
                                       aria-expanded="false"
@@ -3031,7 +3039,7 @@
                                       >The Lost Caverns of Ixalan/The Lost Caverns of Ixalan Commander <em>(2023)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextlci"
                                       aria-labelledby="lci"
                                       data-parent="#lci"
@@ -3043,9 +3051,9 @@
                                 </li>
 
                                 <!--2024-->                                
-                                <li class="card" id="">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtext"
                                       aria-expanded="false"
@@ -3053,7 +3061,7 @@
                                       >setname <em>(2024)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtext"
                                       aria-labelledby=""
                                       data-parent="#"
@@ -3064,9 +3072,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtext"
                                       aria-expanded="false"
@@ -3074,7 +3082,7 @@
                                       >setname <em>(2024)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtext"
                                       aria-labelledby=""
                                       data-parent="#"
@@ -3085,9 +3093,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtext"
                                       aria-expanded="false"
@@ -3095,7 +3103,7 @@
                                       >setname <em>(2024)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtext"
                                       aria-labelledby=""
                                       data-parent="#"
@@ -3106,9 +3114,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtext"
                                       aria-expanded="false"
@@ -3116,7 +3124,7 @@
                                       >setname <em>(2024)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtext"
                                       aria-labelledby=""
                                       data-parent="#"
@@ -3127,9 +3135,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtext"
                                       aria-expanded="false"
@@ -3137,7 +3145,7 @@
                                       >setname <em>(2024)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtext"
                                       aria-labelledby=""
                                       data-parent="#"
@@ -3148,9 +3156,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtext"
                                       aria-expanded="false"
@@ -3158,7 +3166,7 @@
                                       >setname <em>(2024)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtext"
                                       aria-labelledby=""
                                       data-parent="#"
@@ -3169,9 +3177,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtext"
                                       aria-expanded="false"
@@ -3179,7 +3187,7 @@
                                       >setname <em>(2024)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtext"
                                       aria-labelledby=""
                                       data-parent="#"
@@ -3190,9 +3198,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtext"
                                       aria-expanded="false"
@@ -3200,7 +3208,7 @@
                                       >setname <em>(2024)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtext"
                                       aria-labelledby=""
                                       data-parent="#"
@@ -3211,9 +3219,9 @@
                                     </div>
                                 </li>
                                 
-                                <li class="card" id="">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtext"
                                       aria-expanded="false"
@@ -3221,7 +3229,7 @@
                                       >setname <em>(2024)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtext"
                                       aria-labelledby=""
                                       data-parent="#"
@@ -3233,9 +3241,9 @@
                                 </li>
 
                                 <!--2025-->                                
-                                <li class="card" id="j25">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="j25">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextj25"
                                       aria-expanded="false"
@@ -3243,7 +3251,7 @@
                                       >Foundations Jumpstart <em>(2025)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextj25"
                                       aria-labelledby="j25"
                                       data-parent="#j25"
@@ -3255,9 +3263,9 @@
                                 </li>
 
                                 <!--THE LIST-->                                
-                                <li class="card" id="list">
+                                <li class="card bg-danger" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" id="list">
                                     <a
-                                      class="card-header btn btn-link text-left text-primary"
+                                      class="card-header btn btn-link text-left text-white"
                                       data-toggle="collapse"
                                       data-target="#cardtextlist"
                                       aria-expanded="false"
@@ -3265,7 +3273,7 @@
                                       >The List <em>(Various)</em>
                                     </a>
                                     <div
-                                      class="collapse card-body"
+                                      class="collapse card-body" style="background-color: #ffe0e0;"
                                       id="cardtextlist"
                                       aria-labelledby="list"
                                       data-parent="#list"
