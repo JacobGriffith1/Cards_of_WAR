@@ -42,3 +42,13 @@
 .showcaseYear {
     font-family: norse;
 }
+
+.imgGallery {
+    width: 210px;
+}
+
+.imgGallery:hover {
+    transform: scale(2);
+    position: relative;
+    z-index: 1;
+}
