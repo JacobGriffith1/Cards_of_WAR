@@ -45,6 +45,11 @@
     max-width: 400px;
 }
 
+.abtHalf {
+    min-width: 400px;
+    max-width: 600px;
+}
+
 .showcaseName {
     font-family: norseBold;
 }
