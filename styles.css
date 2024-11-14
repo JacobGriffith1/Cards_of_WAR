@@ -58,11 +58,13 @@
     font-family: norse;
 }
 
-.imgGallery {
+.imgGallery,
+.imgGalleryB {
     width: 210px;
 }
 
-.imgGallery:hover {
+.imgGallery:hover,
+.imgGalleryB:hover {
     transform: scale(2);
     position: relative;
     z-index: 1;
