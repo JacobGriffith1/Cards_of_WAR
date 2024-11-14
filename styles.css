@@ -32,7 +32,11 @@
 .jumpbutt {
     font-size: 30px;
     font-family: norse;
-    color: #dc3545;
+}
+
+.dropbutt {
+    font-size: 20px;
+    font-family: norse;
 }
 
 .showcaseHalf {
