@@ -67,3 +67,10 @@
     position: relative;
     z-index: 1;
 }
+
+.flip {
+    outline-style:outset;
+    background-color: goldenrod;
+    outline-color: goldenrod;
+    outline-width: 5px;
+}
