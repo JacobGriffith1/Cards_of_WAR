@@ -4326,7 +4326,7 @@
               (Click on cards with <em style="color: white; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: goldenrod; font-size: 20px;">gold</em> borders to flip them)
             </p>
           </div>
-          <div class="container-fluid bg-danger">
+          <div class="container-fluid bg-danger pb-4">
             <div class="container-xl rounded" style="background-color: #ffe0e0;">
               
               <div class="dropdown">
@@ -4459,11 +4459,120 @@
                     this.src = '/images/2015/ps15/ps15-189-nissa-vastwood-seer.png';
                   }
                 });
+
               </script>
 
             </div>
           </div>
         </section>
+
+        <!--RARITIES-->
+        <section id="rarities" class="mt-2">
+          <div>
+            <div class="my-3 text-center container-md">
+              <h1 class="sectionText">Rarities</h1>
+              <h4 class="text-white" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+                Some of the hardest to find and/or most valuable cards, many of which were printed in limited quantities
+              </h4>
+              <p class="mb-0 text-center text-white" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                (Click on cards with <em style="color: white; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: goldenrod; font-size: 20px;">gold</em> borders to flip them)
+              </p>
+            </div>
+            <div id="carouselRarities" class="carousel slide container-lg" data-ride="carousel" data-interval="15000">
+              <div class="carousel-inner text-white d-flex" style="min-height: 350px;">
+                <div class="carousel-item active">
+                  <div class="d-flex flex-row flex-wrap justify-content-center align-items-center">
+                    <div><img id="wToggleR" class="imgGalleryC m-3 flip" src="/images/2015/ps15/ps15-23-kytheon-hero-of-akros.png"></div>
+                    <div><img id="uToggleR" class="imgGalleryC m-3 flip" src="/images/2015/ps15/ps15-60-jace-vryn-s-prodigy.png"></div>
+                    <div><img id="bToggleR" class="imgGalleryC m-3 flip" src="/images/2015/ps15/ps15-106-liliana-heretical-healer.png"></div>
+                    <div><img id="rToggleR" class="imgGalleryC m-3 flip" src="/images/2015/ps15/ps15-135-chandra-fire-of-kaladesh.png"></div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex flex-row flex-wrap justify-content-center align-items-center">
+                    <div><img id="gToggleR" class="imgGalleryC m-3 flip" src="/images/2015/ps15/ps15-189-nissa-vastwood-seer.png"></div>
+                    <div><img class="imgGalleryC m-3" src="/images/2022/sld_(2022)/sld-461-sram-senior-edificer.png"></div>
+                    <div><img class="imgGalleryC m-3" src="/images/2022/sld_(2022)/sld-462-balthor-the-defiled.png"></div>
+                    <div><img class="imgGalleryC m-3" src="/images/2022/sld_(2022)/sld-463-torbran-thane-of-red-fell.png"></div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex flex-row flex-wrap justify-content-center align-items-center">
+                    <div><img class="imgGalleryC m-3" src="/images/2022/sld_(2022)/sld-464-depala-pilot-exemplar.png"></div>
+                    <div><img class="imgGalleryC m-3" src="/images/2022/sld_(2022)/sld-678-torbran-thane-of-red-fell.png"></div>
+                    <div><img class="imgGalleryC m-3" src="/images/2024/rvr/rvr-365z-dreadbore.png"></div>
+                    <div><img class="imgGalleryC m-3" src="/images/2020/2xm/2xm-357-blightsteel-colossus.png"></div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex flex-row flex-wrap justify-content-center align-items-center">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+                </div>
+
+              </div>
+              <a class="carousel-control-prev" href="#carouselRarities" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </a>
+              <a class="carousel-control-next" href="#carouselRarities" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </a>
+            </div>
+          </div>
+
+          <script>
+
+            document.getElementById('wToggleR').addEventListener('click', function() {
+              var face = this.src;
+              if (face.includes('ps15-23-kytheon-hero-of-akros.png')) {
+                this.src = '/images/2015/ps15/ps15-23-gideon-battle-forged.png';
+              } else {
+                this.src = '/images/2015/ps15/ps15-23-kytheon-hero-of-akros.png';
+              }
+            });
+
+            document.getElementById('uToggleR').addEventListener('click', function() {
+              var face = this.src;
+              if (face.includes('ps15-60-jace-vryn-s-prodigy.png')) {
+                this.src = '/images/2015/ps15/ps15-60-jace-telepath-unbound.png';
+              } else {
+                this.src = '/images/2015/ps15/ps15-60-jace-vryn-s-prodigy.png';
+              }
+            });
+
+            document.getElementById('bToggleR').addEventListener('click', function() {
+              var face = this.src;
+              if (face.includes('/images/2015/ps15/ps15-106-liliana-heretical-healer.png')) {
+                this.src = '/images/2015/ps15/ps15-106-liliana-defiant-necromancer.png';
+              } else {
+                this.src = '/images/2015/ps15/ps15-106-liliana-heretical-healer.png';
+              }
+            });
+
+            document.getElementById('rToggleR').addEventListener('click', function() {
+              var face = this.src;
+              if (face.includes('/images/2015/ps15/ps15-135-chandra-fire-of-kaladesh.png')) {
+                this.src = '/images/2015/ps15/ps15-135-chandra-roaring-flame.png';
+              } else {
+                this.src = '/images/2015/ps15/ps15-135-chandra-fire-of-kaladesh.png';
+              }
+            });
+
+            document.getElementById('gToggleR').addEventListener('click', function() {
+              var face = this.src;
+              if (face.includes('/images/2015/ps15/ps15-189-nissa-vastwood-seer.png')) {
+                this.src = '/images/2015/ps15/ps15-189-nissa-sage-animist.png';
+              } else {
+                this.src = '/images/2015/ps15/ps15-189-nissa-vastwood-seer.png';
+              }
+            });
+
+          </script>
+
+      </section>
 
     </body>
 </html>
