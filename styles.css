@@ -63,6 +63,11 @@
     width: 200px;
 }
 
+.imgGalleryC {
+    width: 240px;
+
+}
+
 .imgGallery:hover,
 .imgGalleryB:hover {
     transform: scale(2);
