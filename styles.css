@@ -1,11 +1,11 @@
 @font-face {
     font-family: norse;
-    src: url(/fonts/NORSE-KAWL.OTF);
+    src: url(fonts/NORSE-KAWL.OTF);
 }
 
 @font-face {
     font-family: norseBold;
-    src: url(/fonts/NORSEBOLD-2KGE.OTF);
+    src: url(fonts/NORSEBOLD-2KGE.OTF);
 }
 
 .title-card,
@@ -16,7 +16,7 @@
 }
 
 .nav-container {
-    background-image: url(/images/nav_bg.jpg);
+    background-image: url(images/nav_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 310px;
