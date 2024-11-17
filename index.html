@@ -28,7 +28,15 @@
             <nav class="nav-container navbar-expand-sm">
                 <div class="container">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nbar" aria-controls="#nbar" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon my-3">
+                        <span class="navbar-toggler-icon my-3" style="translate: 0 -70px;">
+                          <style>
+                            @media (max-width: 575.98px) {
+                              .navbar-collapse {
+                                  margin-top: -40px;
+                                  margin-left: -8px;
+                              }
+                            }
+                          </style>
                             <i class="bi bi-list text-white btn btn-danger"></i>
                         </span>
                     </button>
@@ -130,11 +138,16 @@
         <!--GALLERY-->
         <section id="gallery">
             <div class="bg-danger mt-4 container-fluid">
-              <div>
+              <div class="d-flex flex-column align-items-center">
                   <h1 class="sectionText text-center pt-3">Gallery</h1>
                   <h4 class="text-white text-center" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
                       Every print of every Magic: The Gathering card illustrated by Wayne Reynolds
                   </h4>
+                  <div class="button mt-2 mb-4">
+                    <button class="btn bg-white jumpbutt text-danger" type="button" aria-expanded="false">
+                      <a class="text-danger" href="#jump-button" style="text-decoration: none;">To Bottom of Gallery</a>
+                    </button>
+                  </div>
               </div>
               <div class="container-xl">
                   <ul class="nav nav-tabs pill-white nav-fill">
@@ -4284,10 +4297,10 @@
               </div>
 
               <!--NAVIGATION-->
-              <div class="container d-flex justify-content-center align-items-center p-4">
-                <div class="dropdown">
+              <div class="container d-flex justify-content-center align-items-center p-4"  id="jump-button">
+                <div class="button">
                   <button class="btn bg-white jumpbutt text-danger" type="button" aria-expanded="false">
-                    <a class="text-danger" href="#home" style="text-decoration: none;">Back To Top</a>
+                    <a class="text-danger" href="#gallery" style="text-decoration: none;">To Top of Gallery</a>
                   </button>
                 </div>
               </div>
@@ -4481,7 +4494,7 @@
                 (Click on cards with <em style="color: white; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: goldenrod; font-size: 20px;">gold</em> borders to flip them)
               </p>
             </div>
-            <div id="carouselRarities" class="carousel slide container-lg" data-ride="carousel" data-interval="15000">
+            <div id="carouselRarities" class="carousel slide container-md" data-ride="carousel" data-interval="15000">
               <div class="carousel-inner text-white d-flex" style="min-height: 350px;">
                 <div class="carousel-item active">
                   <div class="d-flex flex-row flex-wrap justify-content-center align-items-center">
