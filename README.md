@@ -1,7 +1,7 @@
 # Cards of WAR :flower_playing_cards:
 ## Atlas Bootstrap
 
-https://jacobgriffith1.github.io/atlas-bootstrap/
+[https://jacobgriffith1.github.io/atlas-bootstrap/](https://jacobgriffith1.github.io/Cards_of_WAR/)
 
 Cards of WAR is a celebration of the art of Wayne Reynolds featured on Magic: The Gathering cards.
 
