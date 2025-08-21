@@ -1,5 +1,5 @@
 # Cards of WAR :flower_playing_cards:
-## Atlas Bootstrap
+![Screenshot of app](images/cowar-landing.png)
 
 https://jacobgriffith1.github.io/Cards_of_WAR/
 
@@ -50,6 +50,6 @@ New/Revised features to be implemented:
 ### About the Author
 My name is Jacob Griffith, and I'm ready to help you build your next website! Whether you're looking for a professional design for a law practice, something inviting for a restaurant, a fun landing page for a tourist attraction, or anything in between, I'm your guy for the job. I am very adaptable, so I can provide whatever web design services you require to reach your goals! Feel free to send me an email at jacobgriffith6339@gmail.com to get in touch. I'll get back to you in 2-3 days, or sooner when possible.
 
-GitHub: <https://github.com/JacobGriffith1>
-LinkedIn: <https://www.linkedin.com/in/jacobgriffith1>
-Personal Site: <https://jacobgriffith1.github.io/griffith_web_design>
+- GitHub: <https://github.com/JacobGriffith1>
+- LinkedIn: <https://www.linkedin.com/in/jacobgriffith1>
+- Personal Site: <https://jacobgriffith1.github.io/griffith_web_design>
